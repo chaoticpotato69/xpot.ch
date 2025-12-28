@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# xpot.ch
 
-## Getting Started
+My personal website — a space for thoughts, tech deep-dives, and raw honesty.
 
-First, run the development server:
+🌐 **Live at**: [xpot.ch](https://xpot.ch)
+
+## What's Inside
+
+- **About Me** — Who I am, what I do, and why
+- **Tech** — My hardware setup (PC, peripherals, mobile devices)
+- **Games** — What I'm currently playing
+- **Projects** — Open source work and a secret E2EE project 🔐
+- **Dreams & Goals** — Things I'm working towards
+- **Hot Takes** — Controversial opinions that change frequently 🔥
+- **Blog** — Monthly deep-dives into tech and geopolitics
+- **Vent** — Raw, unfiltered mental health updates
+- **My Story** — How I survived August 2025
+- **Privacy Policy** — Transparent data handling practices
+
+## Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org) with App Router
+- **Language**: TypeScript
+- **Styling**: Custom CSS with glassmorphism design
+- **Icons**: [Lucide React](https://lucide.dev)
+- **Hosting**: [Cloudflare Workers](https://workers.cloudflare.com) via OpenNext
+- **Analytics**: [Umami](https://umami.is) (privacy-friendly, no cookies)
+
+## Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This site is deployed on Cloudflare Workers using [OpenNext](https://opennext.js.org/cloudflare).
 
-## Learn More
+```bash
+# Deploy to Cloudflare
+npm run deploy
+```
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under **CC BY-NC 4.0** (Creative Commons Attribution-NonCommercial 4.0 International).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You are free to:
+- **Share** — copy and redistribute the material
+- **Adapt** — remix, transform, and build upon the material
 
-## Deploy on Vercel
+Under the following terms:
+- **Attribution** — You must give appropriate credit and link to the source
+- **NonCommercial** — You may not use the material for commercial purposes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See [LICENSE](./LICENSE) for full details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+- **Email**: [john@xpot.ch](mailto:john@xpot.ch)
+- **GitHub**: [@chaoticpotato69](https://github.com/chaoticpotato69)
+- **Discord**: [xpot.ch Discord](https://discord.gg/dD5M677KBp)
+
+---
+
+Made with 💚 and probably too much caffeine.
